@@ -1,0 +1,16 @@
+module.exports = Object.freeze({
+  WALLET: 'YOUR_WALLET.json',
+  PASSPHRASE: 'YOUR_PASSPHRASE',
+  SLIPPAGE: 0.95, // 5%
+  TOKEN_ADDRESS: '0x8566DC7FAEB7cC6D847f9DC37641CC563B06cC63', // FRK - MUST BE CHECKSUMMED
+  WETH: '0xc778417e063141139fce010982780140aa0cd5ab',
+  UNISWAP_ROUTER_V2: '0x7a250d5630b4cf539739df2c5dacb4c659f2488d',
+  WEB3JS_CHAIN: 'ropsten',
+  WEB3JS_HARDFORK: 'petersburg',
+  CHAIN_ID: 3,
+  INFURA_CHAIN: 'ropsten',
+  INFURA_KEY: 'YOUR_INFURA_API_KEY',
+  INFURA_WS: 'wss://ropsten.infura.io/ws/v3/YOUR_INFURA_API_KEY',
+  ETHERSCAN_APIKEY: 'YOUR_ETHERSCAN_API_KEY',
+  ETHERSCAN_URL: 'https://api-ropsten.etherscan.io/api?module=gastracker&action=gasoracle&apikey=YOUR_ETHERSCAN_API_KEY'
+});

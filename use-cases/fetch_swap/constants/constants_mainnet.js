@@ -1,0 +1,16 @@
+module.exports = Object.freeze({
+  WALLET: 'YOUR_WALLET.json',
+  PASSPHRASE: 'YOUR_PASSPHRASE',
+  SLIPPAGE: 0.95, // 5%
+  TOKEN_ADDRESS: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // USDC - MUST BE CHECKSUMMED
+  WETH: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+  UNISWAP_ROUTER_V2: '0x7a250d5630b4cf539739df2c5dacb4c659f2488d',
+  WEB3JS_CHAIN: 'mainnet',
+  WEB3JS_HARDFORK: 'petersburg',
+  CHAIN_ID: 1,
+  INFURA_CHAIN: 'mainnet',
+  INFURA_KEY: 'YOUR_INFURA_API_KEY',
+  INFURA_WS: 'wss://mainnet.infura.io/ws/v3/YOUR_INFURA_API_KEY',
+  ETHERSCAN_APIKEY: 'YOUR_ETHERSCAN_API_KEY',
+  ETHERSCAN_URL: 'https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=YOUR_ETHERSCAN_API_KEY'
+});

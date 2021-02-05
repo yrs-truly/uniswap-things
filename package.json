@@ -1,0 +1,27 @@
+{
+  "name": "offline_sniping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint . --fix",
+    "retrieve": "node index.js retrieve 0x64dF2F6f59fADee7Ee8f3c29f79061c5d3684C01 test 50",
+    "snipe": "node index.js snipe 101848d5c5bbca18e6b4431eedf6b95e9adf82fa test 0.0001 1.01 50 21000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "asciichart": "^1.5.25",
+    "axios": "^0.21.1",
+    "bnc-sdk": "^3.0.0",
+    "caporal": "^1.4.0",
+    "cluster": "^0.7.7",
+    "ethers": "^5.0.24",
+    "http": "0.0.1-security",
+    "moment": "^2.29.1",
+    "os": "^0.1.1",
+    "web3": "^1.3.0"
+  }
+}
